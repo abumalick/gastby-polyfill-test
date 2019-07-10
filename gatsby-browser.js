@@ -1,7 +1,6 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/browser-apis/
- */
-
-// You can delete this file if you're not using it
+// These will crash the build:
+// import "core-js/es/map"
+// import "core-js/es/set"
+// These are from the old 2.X version
+import "core-js/modules/es6.set"
+import "core-js/modules/es6.map"
